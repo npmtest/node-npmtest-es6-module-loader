@@ -1,6 +1,6 @@
 # npmtest-es6-module-loader
 
-#### test coverage for  [es6-module-loader (v0.17.11)](https://github.com/ModuleLoader/es6-module-loader)  [![npm package](https://img.shields.io/npm/v/npmtest-es6-module-loader.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-es6-module-loader) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-es6-module-loader.svg)](https://travis-ci.org/npmtest/node-npmtest-es6-module-loader)
+#### basic test coverage for  [es6-module-loader (v0.17.11)](https://github.com/ModuleLoader/es6-module-loader)  [![npm package](https://img.shields.io/npm/v/npmtest-es6-module-loader.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-es6-module-loader) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-es6-module-loader.svg)](https://travis-ci.org/npmtest/node-npmtest-es6-module-loader)
 
 #### An ES6 Module Loader shim
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-es6-module-loader/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-es6-module-loader/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-es6-module-loader/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-es6-module-loader/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-es6-module-loader/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-es6-module-loader/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-es6-module-loader/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-es6-module-loader/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-es6-module-loader/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-es6-module-loader/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-es6-module-loader/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-es6-module-loader/build/coverage.html/index.html)
 
@@ -116,7 +116,8 @@
         "test:browser:perf": "karma start karma-benchmark.conf.js --single-run",
         "test:node": "mocha test/_node-traceur.js && mocha test/_node-babel.js && mocha test/_node-typescript.js"
     },
-    "version": "0.17.11"
+    "version": "0.17.11",
+    "bin": {}
 }
 ```
 
